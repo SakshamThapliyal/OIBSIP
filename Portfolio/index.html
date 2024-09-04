@@ -1,0 +1,138 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Portfolio</title>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.6.0/css/all.min.css" integrity="sha512-Kc323vGBEqzTmouAECnVceyQqyqdsSiqLQISBL29aUW4U/M7pSPA/gEUZQqv1cwx4OnYxTxve5UMg5GT6L4JJg==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Nunito:ital,wght@0,200..1000;1,200..1000&display=swap" rel="stylesheet">
+
+    <link rel="stylesheet" href="./style.css">
+</head>
+<body>
+    <header class="header">
+        <a href="#" class="logo">Portfolio</a>
+        <nav class="navbar">
+            <a href="#home" class="active"> Home</a>
+            <a href="#about">About</a>
+            <a href="#services">Services</a>
+            <a href="#portfolio">Portfolio</a>
+            <a href="#contact">Contact</a>
+        </nav>
+    </header>
+
+    <section class="home" id="home">
+        <div class="home-content">
+            <h3>Hi, Myself</h3>
+            <h1>Saksham Thapliyal</h1>
+            <h3>And I'm a <span>Frontend Developer</span></h3>
+            <div class="social-media">
+                <a href="#"><i class="fa-brands fa-facebook"></i></a>
+                <a href="#"><i class="fa-brands fa-twitter"></i></a>
+                <a href="#"><i class="fa-brands fa-instagram"></i></a>
+                <a href="#"><i class="fa-brands fa-linkedin"></i></a>
+            </div>
+            <a href="#" class="btn">Download Resume</a>
+        </div>
+        <div class="home-img">
+            <img src="./img/new img.jpg" alt="">
+        </div>
+    </section>
+
+    <section class="about" id="about">
+        <div class="about-img">
+            <img src="img/saksham_profile.png" alt="pc img">
+        </div>
+        
+        <div class="about-content">
+            <h2 class="heading">About <span>Me</span></h2>
+            <h3>Frontend Developer</h3>
+            <p>I have a deep passion for web development and enjoy solving problems with creative solutions. My focus is on creating user-friendly, accessible, and high-performance websites.</p>
+            <a href="#" class="btn">Read more</a>
+        </div>
+    </section>
+
+    <section class="services" id="services">
+        <h2 class="heading">My <span>Services</span></h2>
+        
+        <div class="services-container">
+            <div class="services-box">
+                <i class="fa-solid fa-code"></i>
+                <h3>Web Development</h3>
+                <p>Experienced in building modern, responsive websites with HTML, CSS, and JavaScript, ensuring a great user experience across all devices.</p>
+                <a href="#" class="btn">Read More</a>
+            </div>
+            <div class="services-box">
+                <i class="fa-solid fa-palette"></i>
+                <h3>UI/UX Designing</h3>
+                <p>Strong understanding of design principles and user experience, crafting visually appealing interfaces that are intuitive to use.</p>
+                <a href="#" class="btn">Read More</a>
+            </div>
+        </div>
+    </section>
+
+    <section class="portfolio" id="portfolio">
+        <h2 class="heading">Latest
+            <span>Projext</span>
+        </h2>
+
+        <div class="portfolio-container">
+            <div class="portfolio-box">
+                <img src="img/Dog.png" alt="item">
+                <div class="portfolio-layer">
+                    <h4>TinDog</h4>
+                    <p>Developed a responsive web application using Bootstrap, featuring a playful and modern design for discovering dogs nearby. Implemented a user-friendly interface optimized for both desktop and mobile devices, ensuring smooth interactions across various screen sizes.</p>
+                    <a href="https://sakshamthapliyal.github.io/TinDog-/" target="_blank"><i class="fa-solid fa-up-right-from-square"></i></a>
+                </div>
+            </div>
+
+            <div class="portfolio-box">
+                <img src="img/ntp card.jpg" alt="item">
+                <div class="portfolio-layer">
+                    <h4>Nft-preview-card</h4>
+                    <p>Designed and implemented a visually engaging NFT listing card using HTML and CSS. The card showcases an NFT from the "Equilibrium" collection, including an image.ensuring responsive design for various screen sizes to enhance user experience.</p>
+                    <a href="https://sakshamthapliyal.github.io/Nft-preview-card/" target="_blank"><i class="fa-solid fa-up-right-from-square"></i></a>
+                </div>
+            </div>
+
+            <div class="portfolio-box">
+                <img src="img/product preview.jpg" alt="item">
+                <div class="portfolio-layer">
+                    <h4>Product Preview Card</h4>
+                    <p>Designed and implemented a visually appealing e-commerce product page using HTML and CSS.The page showcases a luxury perfume, featuring an image, product details, original and discounted pricing.</p>
+                    <a href="https://sakshamthapliyal.github.io/E-commerce-Product/" target="_blank"><i class="fa-solid fa-up-right-from-square"></i></a>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <section class="contact" id="contact">
+        <h2 class="heading"> Contact <span>Me</span></h2>
+
+        <form action="#">
+            <div class="input-box">
+                <input type="text" placeholder="Full Name">
+                <input type="email" placeholder="Email Address">
+            </div>
+
+            <div class="input-box">
+                <input type="number" placeholder="Mobile Number">
+                <input type="text" placeholder="email subject">
+            </div>
+            <textarea name="" id="" cols="30" placeholder="Your Message"></textarea>
+            <input type="submit" value="send message" class="btn">
+        </form>
+
+    </section>
+
+    <footer class="footer">
+        <div class="footer-text">
+            <p>Copyright &copy; 2024 by Saksham Thapliyal</p>
+        </div>
+
+    </footer>
+</body>
+</html>
